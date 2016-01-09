@@ -12,8 +12,7 @@ and open the template in the editor.
         <?php
 //--------------------------------------------------------------------
 // 商品一覧の定義
-$fish = array( "目薬","日焼け止め","シャンプー","虫除けスプレー",
-                "石けん","ガム","チョコレート","バナナ");
+$fish = array( "サンマ","マグロ","カサゴ","クエ","ヒラメ","フナ","サバ");
 //--------------------------------------------------------------------
 // パラメータに応じて処理を変える
 if (isset($_GET["fish"])) {
@@ -26,7 +25,7 @@ if (isset($_GET["fish"])) {
 function show_item() {
     $fish = $_GET["fish"];
     $fish_html = htmlspecialchars($fish); // HTML変換
-    echo "商品「{$fish_html}」を購入しました!!";
+    echo "魚「{$fish_html}」をゲットだぜ！";
 }
 // フォームを表示する
 function show_form() {
@@ -40,7 +39,7 @@ function show_form() {
     echo <<< __FORM__
 <form>
 <select name="fish">
-    <option>商品を選択</option>
+    <option>魚を選択</option>
     {$options}
 </select>
 <input type="submit" value="購入" />
