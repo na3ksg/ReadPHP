@@ -19,8 +19,14 @@ and open the template in the editor.
                 break;
             case "write": mode_write();
                 break;
+            case "reset": mode_reset();
+                break;
             default : mode_show();
                 break;
+        }
+        function mode_reset(){
+            save_date(array());//空の要素で保存する
+            echo "掲示板を初期化したよ";
         }
         //データの表示
         function mode_show(){
@@ -46,6 +52,10 @@ and open the template in the editor.
         <input type="submit" value="投稿"/>
         <input type="hidden" name="mode" value="write"/>
         </form><hr/>
+        <!--リセットボタン-->
+        <form><input type="hidden" name="mode" value="reset"/ >
+              <input type="submit" value="掲示板の初期化"/>
+        </form>    
 __FORM__;
         }
         //データの書き込み
