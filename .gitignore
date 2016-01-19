@@ -1,1 +1,6 @@
 /nbproject/private/
+# 拡張子が.logのファイルを除外
+*.log
+
+# .abファイルを除外
+*.ab
