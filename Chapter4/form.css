@@ -1,46 +1,46 @@
 /* css style */
 body {
-	background-color: #f0f0ff;
-	line-height: 1.5em;
-	font-size: 12px;
+    background-color: #f0f0ff;
+    line-height: 1.5em;
+    font-size: 12px;
 }
 #loginform form {
-	width: 300px;
-	padding: 0px;
+    width: 300px;
+    padding: 0px;
 }
 #loginform label {
-	display: block;
-	text-align: right;
-	width: 112px;
-	float: left;
-	padding: 4px;
-	margin: 0px;
+    display: block;
+    text-align: right;
+    width: 112px;
+    float: left;
+    padding: 4px;
+    margin: 0px;
 }
 #loginform input {
-	float: left;
-	width: 180px;
-	margin-left:0;
-	maring-right:0;
-	margin-bottom: 6px;
-	padding: 6px;
+    float: left;
+    width: 180px;
+    margin-left:0;
+    maring-right:0;
+    margin-bottom: 6px;
+    padding: 6px;
 }
 #loginform button {
-	clear:both;
-	text-align:center;
-	font-size: 11p;
-	font-weight: bold;
-	margin-left: 120px;
+    clear:both;
+    text-align:center;
+    font-size: 11p;
+    font-weight: bold;
+    margin-left: 120px;
 }
 #loginform h3 {
-	font-size: 12px;
-	padding: 4px;
-	text-align: center;
-	background-color: #6070ff;
-	color: white;
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+    background-color: #6070ff;
+    color: white;
 }
 p {
-	background-color: #ffffC0;
-	padding: 8px;
+    background-color: #ffffC0;
+    padding: 8px;
 }
 /*
 To change this license header, choose License Headers in Project Properties.
