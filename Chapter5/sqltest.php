@@ -21,7 +21,7 @@ and open the template in the editor.
 __FORM__;
         //SQLを実行する
         if ($query != ""){
-            $ab = new PDO("sqlite./test.ab");
+            $ab = new PDO("sqlite:./test.ab");
             $ab ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             try {
                 //実行して結果を表示する
