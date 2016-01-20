@@ -54,7 +54,7 @@ ___SQL___;
         </div></form>
 __FORM__;
         // ログの表示
-        $select_query = "SELECT * FROM chatlog ORDER BY log_id DESC";
+        $select_query = "SELECT * FROM chatlog ORDER BY log_id DESC LIMIT 30";
         $stmt = $db->query($select_query);
         foreach ($stmt as $row) {
             $name = htmlspecialchars($row["name"]);
