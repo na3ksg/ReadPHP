@@ -1,0 +1,16 @@
+/* css */
+h3 {
+    background-color: #0066CC; color:#FFFFFF;
+    padding: 6px;
+    font-size:18px;
+}
+h4 {
+    background-color: #0088EE; color:#FFFFFF;
+    padding: 6px;
+    font-size:13px;
+}
+.body {
+    margin-left: 24px;
+    font-size:12px;
+}
+
