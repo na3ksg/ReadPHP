@@ -5,3 +5,7 @@
 # データベースファイルを除外
 *.ab
 *.db
+
+#テキストファイルを除外
+*.txt
+project.properties
