@@ -1,4 +1,11 @@
-/nbproject/private/
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
 # 拡張子が.logのファイルを除外
 *.log
 
